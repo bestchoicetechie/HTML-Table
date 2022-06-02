@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        th{
+            text-align: center;
+            font-size: 20px;
+            font-weight: bold;
+            padding: 20px;
+        }
+        td{
+            padding: 10px;
+            text-align: center;
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1 style="text-align: center; color: orangered; text-decoration: underline; padding: 20px;">How To Create A Table in HTML</h1>
+    <table border="2" style="width: 70%; height: 40vh; margin: 0 auto;">
+        <caption>HTML TABLE</caption>
+
+        <thead>
+            <tr>
+                <th>S/N</th>
+                <th>Name</th>
+                <th>Age</th>
+                <th>Position</th>
+                <th>DOB</th>
+                <th>Date Admitted</th>
+            </tr>
+        </thead>
+        <tr>
+            <td>1</td>
+            <th>John Paul</th>
+            <td>20</td>
+            <td>Instructor</td>
+            <td>21/02/2002</td>
+            <td>20/01/2018</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <th rowspan="2">Isaac</th>
+            <td rowspan="2">25</td>
+            <td>Admin</td>
+            <td rowspan="2">09/04/2002</td>
+            <td rowspan="2">10/01/2021</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Developer</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <th>James</th>
+            <td>19</td>
+            <td>Frontend</td>
+            <td>25/03/2002</td>
+            <td>30/01/2021</td>
+        </tr>
+        <tr><td colspan="6" style="text-align: center;">Please keep the table in order</td></tr>
+    </table>
+
+    <div style="text-align: center; margin: 30px 20px; display: flex; justify-content: center;">
+        <details>
+            <summary style="font-size: 22px; color: orangered;">Author Details</summary>
+            <div>
+                <h4>Developed by:  <span style="color: orangered;">Awe John</span></h4>
+                <h4>Knowledgehut  <span style="color: orangered;"></span></h4>
+            </div>
+            <div>
+                <h4>Instructor:  <span style="color: orangered;">Pooja Mourya</span></h4>
+                <h4>  <span style="color: orangered;"></span></h4>
+            </div>
+            
+        </details>
+    </div>
+    
+</body>
+</html>
